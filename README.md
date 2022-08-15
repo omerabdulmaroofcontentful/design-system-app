@@ -14,6 +14,8 @@ The App currently stores folloing Design system info
  - Theme
 This could definitly be extended to accomodate further use cases. 
 
+<img src="./1.png">
+
 
 ## Available Scripts
 
