@@ -1,5 +1,20 @@
 This project was bootstrapped with [Create Contentful App](https://github.com/contentful/create-contentful-app).
 
+
+## Information about App
+The purpose of this application is to show customers how to inject design system related information into the component or page entry. 
+
+The App uses JSON field and also uses the JSON configuration where the design system related information is stored, depending on the field the app is opend it would show information related to App. 
+
+Please update the json_response.json with your own content types sys.id, in sample app case i am using componenthero and Page
+
+The App currently stores folloing Design system info
+ - Color 
+ - Alignment 
+ - Theme
+This could definitly be extended to accomodate further use cases. 
+
+
 ## Available Scripts
 
 In the project directory, you can run:

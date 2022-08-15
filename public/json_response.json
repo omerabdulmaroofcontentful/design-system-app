@@ -2,13 +2,13 @@
 "component":
     {
         "Color":["default","#DFFF00","#FFBF00","#FF7F50"],
-        "Alignment":["default","righ","left","center"],
+        "Alignment":["default","right","left","center"],
         "Theme":["default","theme1","them2","theme3"]
     },
 "page":
     {
         "Color":["default","#DFFF00","#FFBF00","#FF7F50"],
-        "Alignment":["default","righ","left","center"],
+        "Alignment":["default","right","left","center"],
         "Theme":["default","page_theme1","page_theme2","page_theme3"]
     }
 }

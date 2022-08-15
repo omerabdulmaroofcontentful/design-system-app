@@ -6,6 +6,21 @@ import { /* useCMA, */ useSDK } from '@contentful/react-apps-toolkit';
 
 export interface AppInstallationParameters {}
 
+const design_sytem = {
+  component:
+      {
+          "Color":["default","#DFFF00","#FFBF00","#FF7F50"],
+          "Alignment":["default","righ","left","center"],
+          "Theme":["default","theme1","them2","theme3"]
+      },
+  page:
+      {
+          "Color":["default","#DFFF00","#FFBF00","#FF7F50"],
+          "Alignment":["default","righ","left","center"],
+          "Theme":["default","page_theme1","page_theme2","page_theme3"]
+      }
+  }
+  
 const ConfigScreen = () => {
   const [parameters, setParameters] = useState<AppInstallationParameters>({});
   const sdk = useSDK<AppExtensionSDK>();

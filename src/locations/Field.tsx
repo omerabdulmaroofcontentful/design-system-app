@@ -33,14 +33,22 @@ const Field = () => {
 
     useEffect(() => {
 
-      console.log('entry',sdk.editor.editorInterface.sys.contentType.sys.id)
+      //console.log('entry',sdk.editor.editorInterface.sys.contentType.sys.id)
       const fetchData = async () => {
          //fetch design system values from API
           fetch("../json_response.json")
           .then(response => response.json())
           .then(data => {
             console.log('Success:', typeof data);
-            setDesignSystem(data.component)
+            let contentType = sdk.editor.editorInterface.sys.contentType.sys.id
+            console.log('contentType',contentType)
+            if(contentType==='componenthero'){
+              setDesignSystem(data.component)
+            }else{
+              setDesignSystem(data.page)
+            }
+
+            
           })
 
           //get current value saved
